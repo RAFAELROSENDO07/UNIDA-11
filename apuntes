@@ -1,0 +1,168 @@
+Unidad I. Introducción a la graficación por computadora
+
+La graficación por computadora es una rama de la informática que se encarga de la creación, 
+manipulación y representación de imágenes mediante el uso de computadoras. Su objetivo principal 
+es permitir la visualización de información de manera gráfica, ya sea en dos dimensiones (2D) 
+o en tres dimensiones (3D), facilitando la comprensión, análisis y comunicación visual en diferentes 
+áreas del conocimiento.
+
+Actualmente, la graficación por computadora se utiliza en campos como la animación digital, 
+videojuegos, diseño industrial, medicina, arquitectura, simulación científica y educación.
+
+1.1 Historia y evolución de la graficación por computadora
+
+La graficación por computadora ha evolucionado junto con el desarrollo tecnológico.
+
+En sus inicios, durante las décadas de 1950 y 1960, las computadoras solo podían mostrar
+gráficos simples mediante líneas y puntos debido a limitaciones de hardware. Uno de los
+primeros sistemas gráficos fue el Sketchpad (1963), que permitió dibujar figuras mediante
+una interfaz interactiva.
+
+En las décadas de 1970 y 1980 se introdujeron las pantallas rasterizadas y el uso de colores,
+lo que permitió la aparición de los primeros videojuegos y sistemas de diseño asistido por 
+computadora (CAD).
+
+En los años 90, el avance de las tarjetas gráficas permitió la creación de gráficos tridimensionales 
+en tiempo real, lo que impulsó la industria del entretenimiento digital.
+
+En la actualidad, la graficación por computadora ha alcanzado niveles de realismo muy avanzados gracias
+al procesamiento gráfico (GPU), inteligencia artificial y técnicas como el ray tracing.
+
+1.2 Áreas de aplicación
+
+La graficación por computadora tiene múltiples aplicaciones en la vida cotidiana y profesional:
+
+Videojuegos y entretenimiento digital
+
+Animación y cine
+
+Diseño gráfico y publicidad
+
+Arquitectura e ingeniería (modelado 3D)
+
+Medicina (imágenes médicas y simulaciones)
+
+Educación y simuladores
+
+Realidad virtual y realidad aumentada
+
+Visualización científica y análisis de datos
+
+1.3 Aspectos matemáticos de la graficación
+
+Las matemáticas son fundamentales en la graficación por computadora. Entre los principales
+conceptos matemáticos utilizados se encuentran:
+
+Geometría analítica (puntos, líneas, vectores y planos)
+
+Trigonometría (rotaciones, curvas y trayectorias)
+
+Álgebra lineal (matrices y transformaciones)
+
+Cálculo (curvas suaves y animaciones)
+
+Transformaciones geométricas (traslación, rotación y escala)
+
+Por ejemplo, para mover un objeto en una escena 3D se utilizan coordenadas (x, y, z) y matrices de transformación.
+
+1.4 Modelos del color: RGB, CMY, HSV y HSL
+
+Los modelos de color permiten representar colores digitalmente mediante valores numéricos.
+
+RGB (Red, Green, Blue)
+
+Es el modelo más utilizado en pantallas digitales. Combina luz roja, verde y azul para formar otros colores.
+
+Ejemplo:
+
+(255, 0, 0) = rojo
+
+(0, 255, 0) = verde
+
+(0, 0, 255) = azul
+
+CMY (Cyan, Magenta, Yellow)
+
+Se utiliza principalmente en impresión. Funciona mediante la mezcla de pigmentos en lugar de luz.
+
+HSV (Hue, Saturation, Value)
+
+Representa los colores de forma más intuitiva para los humanos:
+
+Hue = tono
+
+Saturation = saturación
+
+Value = brillo
+
+HSL (Hue, Saturation, Lightness)
+
+Similar al HSV pero con un manejo diferente de la luminosidad.
+
+✅ Tutorial: Cómo iluminar un cubo en Blender
+
+Abrir Blender.
+
+Eliminar el cubo si deseas comenzar desde cero.
+
+Presionar Shift + A → Mesh → Cube para agregar un cubo.
+
+Presionar Shift + A → Light → Point para agregar una luz.
+
+Mover la luz con la tecla G.
+
+Ajustar la intensidad en el panel de propiedades (ícono de bombilla).
+
+Cambiar el material del cubo:
+
+Seleccionar el cubo
+
+Ir a Material Properties
+
+Presionar New
+
+Cambiar el color
+
+Activar Render Preview para ver la iluminación.
+
+Esto permite observar cómo la luz interactúa con las caras del cubo.
+
+1.5 Representación y trazo de líneas y polígonos
+En la graficación por computadora, los objetos se representan mediante
+primitivas geométricas básicas como puntos, líneas y polígonos.
+Un polígono es una figura formada por múltiples líneas conectadas,
+y es la base de los modelos 3D. Los objetos complejos se construyen mediante miles o millones de polígonos.
+El trazo de líneas en computación se realiza mediante algoritmos como:
+
+1.5.1 Formatos de imagen
+
+Los formatos de imagen permiten almacenar información gráfica digitalmente.
+Principales formatos:
+
+
+
+ Prácticas: Dibujo de un polígono y la Flor de la Vida
+Práctica 1: Dibujo de un polígono
+
+Consiste en crear una figura geométrica con múltiples lados utilizando
+herramientas de dibujo digital o programación.
+Ejemplo en Blender:
+
+
+
+1.6 Procesamiento de mapas de bits
+Un mapa de bits es una imagen formada por píxeles, donde cada píxel contiene información de color.
+
+El procesamiento de mapas de bits incluye:
+Edición de imágenes
+Filtros digitales
+Corrección de color
+Compresión
+Escalado y transformación
+Programas como Photoshop, GIMP y Blender permiten manipular mapas de bits.
+
+
+Conclusión de la Unidad
+
+La graficación por computadora es una disciplina fundamental en la tecnología moderna que
+combina matemáticas, programación y diseño visual para crear representaciones digitales. 
